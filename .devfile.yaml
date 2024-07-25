@@ -1,6 +1,6 @@
 schemaVersion: 2.3.0
 metadata:
-  generateName: devspaces-telemetry
+  generateName: fraud-detection
 attributes:
   controller.devfile.io/storage-type: ephemeral
 components:
