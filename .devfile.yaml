@@ -11,3 +11,6 @@ components:
       memoryLimit: 10Gi
       cpuLimit: '4'
       cpuRequest: '0.5'
+      env:
+        - name: VSCODE_DEFAULT_WORKSPACE
+          value: "/"
