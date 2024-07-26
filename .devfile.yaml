@@ -6,8 +6,8 @@ attributes:
 components:
   - name: tools
     container:
-      image: tiangolo/python-machine-learning:python3.6-tensorflow
+      image: quay.io/opendatahub/workbench-images:cuda-jupyter-tensorflow-ubi9-python-3.9-20240718
       memoryRequest: 1Gi
-      memoryLimit: 8Gi
+      memoryLimit: 10Gi
       cpuLimit: '4'
       cpuRequest: '0.5'
