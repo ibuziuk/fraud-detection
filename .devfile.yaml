@@ -6,7 +6,7 @@ attributes:
 components:
   - name: tools
     container:
-      image: quay.io/redhat-developer/devspaces-telemetry:latest
+      image: tiangolo/python-machine-learning:python3.6-tensorflow
       memoryRequest: 1Gi
       memoryLimit: 8Gi
       cpuLimit: '4'
