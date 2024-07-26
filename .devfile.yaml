@@ -6,7 +6,7 @@ attributes:
 components:
   - name: tools
     container:
-      image: quay.io/opendatahub/workbench-images:cuda-jupyter-tensorflow-ubi9-python-3.9-20240718
+      image: quay.io/opendatahub/workbench-images:jupyter-intel-tensorflow-ubi9-python-3.9-20240724-ed46263
       memoryRequest: 1Gi
       memoryLimit: 10Gi
       cpuLimit: '4'
