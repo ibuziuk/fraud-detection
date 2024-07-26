@@ -1,7 +1,7 @@
 {
     "recommendations": [
-        "redhat.vscode-yaml",
         "ms-python.python",
-        "ms-toolsai.jupyter"
+        "ms-toolsai.jupyter",
+        "redhat.vscode-yaml"
     ]
 }
